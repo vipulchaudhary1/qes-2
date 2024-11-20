@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact-form{
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    border-radius: 10px white;
+    box-shadow: 0 0 50px rgba(rgba(94, 11, 11, 0.426), rgba(0, 128, 0, 0.66), rgba(0, 0, 255, 0.397), alpha);
+}
+.contact-form h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.from-group{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.from-group label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.from-group input,.from-group textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.from-group textarea{
+    height: 150px;
+    resize: vertical;
+}
+button[type="submit"]{
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type="reset"]{
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type="submit"]:hover{
+    background-color: burlywood;
+}
+button[type="reset"]:hover{
+    background-color: burlywood;
+}

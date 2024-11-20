@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form class="contact-form">
+        <h2>Form</h2>
+        <div class="from-group">
+            <label for="name">Name:</label>
+            <input type="text" name="name" required placeholder="enter name">
+        </div>
+
+        <div class="from-group">
+            <label for="email">Email:</label>
+            <input type="text" name="name" required placeholder="enter email">
+        </div>
+
+        <div class="from-group">
+            <label for="gender">gender:</label>
+            <input type="radio" name="man">male
+            <input type="radio" name="man">female
+        </div>
+        <div class="from-group">
+           <label for="qulifiction">qulifiction:</label>
+           <select name="" id="">
+            <option value="">css</option>
+            <option value="">html</option>
+            <option value="">java script</option>
+           </select>
+        </div>
+
+        <div class="from-group">
+            <label for="message">message:
+             <textarea name="message" id="" required></textarea>
+            </label>
+        </div>
+
+        <div class="from-group">
+            <label for="password">password:</label>
+            <input type="password"  required >
+        </div>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+    </form>
+</body>
+</html>
